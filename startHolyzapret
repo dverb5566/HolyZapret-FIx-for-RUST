@@ -7,7 +7,7 @@ if %errorLevel% neq 0 (
 
 call "%~dp0general.bat"
 
-echo Ожидание 2 секунды перед удалением Виндиверт
+echo waiting 2 seconds...
 timeout /t 2 /nobreak > nul
 
 sc stop windivert > nul 2>&1
